@@ -31,6 +31,9 @@
 	cd st &&
 	sudo make install
 
+	## Getting rid of nano cause I use it to install Arch - I don't like using nvim if it isn't pretty! ##
+	yay -R nano
+
 	## Copies dotfiles to the home directory from USB mounted at ~/install ##
 	cp .xinitrc ~
 	cp .profile ~
@@ -38,9 +41,3 @@
 	cp .zshrc ~
 	cp aliasrc ~/.config/
 	cp -r nvim ~/.config/
-
-	## Loads Budgie settings ##
-	dconf load /com/solus-project/ < budgie-backup
-
-	## Getting rid of nano cause I use it to install Arch - I don't like using nvim if it isn't pretty! ##
-	yay -R nano
