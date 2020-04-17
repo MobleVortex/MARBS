@@ -6,9 +6,6 @@
 	## Makes pacman and yay have purtay coolers ##
 	sudo bash candy.sh
 
-	## Move dotfiles to home ##
-	bash move.sh
-
 	## Installs reflector and sort mirrors for the fast downloads ##
 	sudo pacman --noconfirm --needed -S reflector
 
@@ -19,6 +16,9 @@
 	tar -xvf yay.tar.gz &&
 	cd "yay" &&
 	makepkg --noconfirm -si
+
+	## Move dotfiles to home ##
+	bash copy.sh
 
 	## Installs packages with yay, seemed to work with one line so there are 4 - and it's easier to read! ##
 	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme budgie-desktop budgie-extras dash f2fs-tools abiword
