@@ -20,7 +20,7 @@
 	## Installs packages with yay, seemed to work with one line so there are 4 - and it's easier to read! ##
 	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme budgie-desktop budgie-extras dash f2fs-tools abiword
 
-	yay --noconfirm --needed -S xcursor-breeze-adapta dashbinsh brave-bin unrar unzip zsh-syntax-highlighting unclutter
+	yay --noconfirm --needed -S xcursor-breeze-adapta dashbinsh brave-bin unrar unzip zsh-syntax-highlighting unclutter ttf-liberation
 
 	yay --noconfirm --needed -S pulseaudio-alsa pulsemixer neovim gnome-keyring gnome-control-center network-manager-applet xdg-utils
 
