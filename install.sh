@@ -26,7 +26,7 @@
 	cd "yay" &&
 	makepkg --noconfirm -si
 
-	## Installs packages with yay, seemed to work with one line so there are 4 - and it's easier to read! ##
+	## Installs packages with yay, didn't seem to work with one line so there are 4 - and it's easier to read! ##
 	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme budgie-desktop budgie-extras dash f2fs-tools abiword
 
 	yay --noconfirm --needed -S xcursor-breeze-adapta dashbinsh brave-bin unrar unzip zsh-syntax-highlighting unclutter ttf-liberation
@@ -40,5 +40,5 @@
 	cd st &&
 	sudo make install
 
-	## Getting rid of nano cause I use it to install Arch ##
+	## Removes nano cause I use it to on the live USB but not in the DE ##
 	yay -R nano
