@@ -40,5 +40,5 @@
 	cd st &&
 	sudo make install
 
-	## Getting rid of nano cause I use it to install Arch - I don't like using nvim if it isn't pretty! ##
+	## Getting rid of nano cause I use it to install Arch ##
 	yay -R nano
