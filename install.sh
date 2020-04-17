@@ -6,6 +6,9 @@
 	## Makes pacman and yay have purtay coolers ##
 	sudo bash candy.sh
 
+	## Move dotfiles to home ##
+	bash move.sh
+
 	## Installs reflector and sort mirrors for the fast downloads ##
 	sudo pacman --noconfirm --needed -S reflector
 
@@ -33,11 +36,3 @@
 
 	## Getting rid of nano cause I use it to install Arch - I don't like using nvim if it isn't pretty! ##
 	yay -R nano
-
-	## Copies dotfiles to the home directory from USB mounted at ~/install ##
-	cp .xinitrc ~
-	cp .profile ~
-	cp .zprofile ~
-	cp .zshrc ~
-	cp aliasrc ~/.config/
-	cp -r nvim ~/.config/
