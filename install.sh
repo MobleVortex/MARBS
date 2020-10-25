@@ -27,7 +27,7 @@
 	makepkg --noconfirm -si
 
 	## Installs packages with yay, didn't seem to work with one line so there are 4 - and it's easier to read! ##
-	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme budgie-desktop budgie-extras dash f2fs-tools abiword
+	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme budgie-desktop budgie-extras dash f2fs-tools abiword gdm
 
 	yay --noconfirm --needed -S xcursor-breeze-adapta dashbinsh brave-bin unrar unzip zsh-syntax-highlighting unclutter ttf-liberation
 
