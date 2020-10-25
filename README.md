@@ -16,8 +16,6 @@ cd MARBS
 
 bash copy.sh
 
-There's no Display Manager - I don't use one.
-
 Configure Budgie to your liking.
 
 To launch st I set the keyboard shortcut Super + ENTER to run /usr/local/bin/./st
