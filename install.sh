@@ -31,9 +31,9 @@
 
 	yay --noconfirm --needed -S xcursor-breeze-adapta dashbinsh brave-bin unrar unzip zsh-syntax-highlighting unclutter ttf-liberation
 
-	yay --noconfirm --needed -S pulseaudio-alsa pulsemixer neovim gnome-keyring gnome-control-center network-manager-applet xdg-utils
+	yay --noconfirm --needed -S pulseaudio-alsa pulsemixer neovim gnome-keyring gnome-control-center network-manager-applet xdg-utils android-tools
 
-	yay --noconfirm --needed -S xorg-fonts xorg-server xorg-xinit budgie-calendar-applet xorg-xset gnome-backgrounds  gnome-disk-utility
+	yay --noconfirm --needed -S xorg-fonts xorg-server xorg-xinit budgie-calendar-applet xorg-xset gnome-backgrounds  gnome-disk-utility gvfs-mtp 
 
 	## Installs Luke's build of st so I can suck a little less ##
 	git clone https://github.com/lukesmithxyz/st.git &&
