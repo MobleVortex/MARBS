@@ -9,7 +9,7 @@ v#!/bin/sh
 	cp .zshrc ~
 	cp aliasrc ~/.config/
  	cp .nanorc ~
-	cp foot.ini ~
+	cp foot.ini ~/.config/foot/
  
 	## Makes pacman and yay have purtay coolers ##
 	sudo bash candy.sh
