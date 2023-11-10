@@ -1,4 +1,4 @@
-v#!/bin/sh
+#!/bin/sh
 
 	## Kyle's Arch Budgie Desktop Installation and  dotfile script ##
 	## dot files were stolen and tweaked from LARBS (Luke Smith)   ##
@@ -32,9 +32,9 @@ v#!/bin/sh
 
 #	yay --noconfirm --needed -R
 
- 	## change shell to zsh
+ 	## change shell to zsh & source
   	chsh -s /bin/zsh
-
-	## clean up and zsh
-   	zsh &&
-    	clear
+	source ~/.zshrc
+	
+ 	## zsh
+   	zsh 
