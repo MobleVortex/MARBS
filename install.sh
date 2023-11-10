@@ -36,5 +36,5 @@
   	chsh -s /bin/zsh
 	source ~/.zshrc
 	
- 	## zsh
-   	zsh 
+ 	## log out and back in for zsh default
+   	echo ### Log out and log in for default shell to change! ###
