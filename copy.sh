@@ -9,3 +9,4 @@
 	cp aliasrc ~/.config/
 	cp -r nvim ~/.config/
 	cp .nanorc ~
+	cp foot.ini ~/.config/foot/
