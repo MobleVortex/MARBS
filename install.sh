@@ -1,4 +1,4 @@
-#!/bin/sh
+v#!/bin/sh
 
 	## Kyle's Arch Budgie Desktop Installation and  dotfile script ##
 	## dot files were stolen and tweaked from LARBS (Luke Smith)   ##
@@ -6,14 +6,11 @@
 	## Makes ~/.config and moves dotfiles to the home directory ##
 	mkdir ~/.config
  	mkdir ~/.config/foot
-	cp .xinitrc ~
-	cp .profile ~
-	cp .zprofile ~
 	cp .zshrc ~
 	cp aliasrc ~/.config/
 	cp -r nvim ~/.config/
  	cp .nanorc ~
-	cp foot.ini
+	cp foot.ini ~
  
 	## Makes pacman and yay have purtay coolers ##
 	sudo bash candy.sh
@@ -34,6 +31,6 @@
 	## Installs packages with yay, didn't seem to work with one line so there are 4 - and it's easier to read! ##
 	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot
 
-	yay --noconfirm --needed -S breeze-adapta-cursor-theme-git dashbinsh brave-bin unrar unzip zsh-syntax-highlighting unclutter ttf-liberation
+	yay --noconfirm --needed -S breeze-adapta-cursor-theme-git dashbinsh brave-bin unrar unzip zsh-syntax-highlighting neovim ttf-liberation
 
 	yay --noconfirm --needed -S mpv rhythmbox librewolf-bin
