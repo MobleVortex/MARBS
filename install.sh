@@ -8,7 +8,6 @@ v#!/bin/sh
  	mkdir ~/.config/foot
 	cp .zshrc ~
 	cp aliasrc ~/.config/
-	cp -r nvim ~/.config/
  	cp .nanorc ~
 	cp foot.ini ~
  
@@ -31,6 +30,6 @@ v#!/bin/sh
 	## Installs packages with yay, didn't seem to work with one line so there are 4 - and it's easier to read! ##
 	yay --noconfirm --needed -S gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot
 
-	yay --noconfirm --needed -S breeze-adapta-cursor-theme-git dashbinsh brave-bin unrar unzip zsh-syntax-highlighting neovim ttf-liberation
+	yay --noconfirm --needed -S breeze-adapta-cursor-theme-git dashbinsh brave-bin unrar unzip zsh-syntax-highlighting ttf-liberation
 
 	yay --noconfirm --needed -S mpv rhythmbox librewolf-bin
