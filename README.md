@@ -10,7 +10,7 @@ cd marbs
 
 log out, log back in
 
-If the dot files don't get copied for whatever reason then:
+If you want the extra dot files then:
 
 cd marbs
 
