@@ -2,30 +2,18 @@
 
 How to use the badness:
 
-git clone https://github.com/MobleVortex/MARBS.git
+git clone https://github.com/moblevortex/marbs.git
 
-cd MARBS
+cd marbs
 
-bash install.sh
+./install.sh
 
 log out, log back in
 
 If the dot files don't get copied for whatever reason then:
 
-cd MARBS
+cd marbs
 
-bash copy.sh
+./copy.sh
 
-Configure Budgie to your liking.
-
-To launch st I set the keyboard shortcut Super + ENTER to run /usr/local/bin/./st
-
-No other terminals are included in the install script
-
-Unclutter does not run by default - I'm too stoopid to figure out how to make it work with .xinitrc
-
-To run it at startup go to Budgie Settings -> Autostart
-
-Add command unclutter -b
-
-Enjoy.
+Configure to your liking & enjoy.
