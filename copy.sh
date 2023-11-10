@@ -8,3 +8,4 @@
 	cp .zshrc ~
 	cp aliasrc ~/.config/
 	cp -r nvim ~/.config/
+	cp .nanorc ~
