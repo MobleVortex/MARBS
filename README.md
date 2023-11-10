@@ -1,4 +1,6 @@
-# MARBS
+# marbs
+
+TODO - gsettings stuff for gnome. Dark mode, etc
 
 How to use the badness:
 
