@@ -41,4 +41,4 @@
 	source ~/.zshrc
 	
  	## log out and back in for zsh default
-   	echo _/\_ Log out and log in for default shell to change! _/\_
+   	gnome-session-quit --no-prompt --force
