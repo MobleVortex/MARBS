@@ -1,6 +1,6 @@
 #!/bin/sh
 
-	## Kyle's Arch Budgie Desktop Installation and  dotfile script ##
+	## MobileVortex Arch Desktop Installation and  dotfile script ##
 	## dot files were stolen and tweaked from LARBS (Luke Smith)   ##
 
 	## Makes ~/.config and moves dotfiles to the home directory ##
