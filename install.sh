@@ -27,7 +27,7 @@
 #	sudo reflector --verbose --country 'United States' --sort rate --save /etc/pacman.d/mirrorlist
 
 	## Installs packages with yay, didn't seem to work with one line so there are 4 - and it's easier to read! ##
-	yay --noconfirm --needed -S transmission-gtk electrum nextcloud-client reflector rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation librewolf-bin noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot
+	yay --noconfirm --needed -S transmission-gtk3 electrum nextcloud-client reflector rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation librewolf-bin noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot
 
  	## Load dconf settings for gnome
  	dconf load / < ~/marbs/dconf-settings.ini
