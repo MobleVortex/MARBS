@@ -34,7 +34,7 @@
 	yay --noconfirm -R gnome-tour gnome-logs gnome-maps gnome-software gnome-music gnome-clocks gnome-contacts gnome-calendar gnome-user-docs gnome-remote-desktop gnome-characters gnome-user-share gnome-text-editor gnome-connections gnome-font-viewer yelp malcontent totem orca simple-scan epiphany rygel
 
 	## Load dconf settings for gnome
- 	dconf load / < dconf-settings.ini
+ 	dconf load / < ~/marbs/dconf-settings.ini
 	
  	## change shell to zsh & source
   	chsh -s /bin/zsh
