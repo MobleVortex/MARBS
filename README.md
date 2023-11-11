@@ -12,7 +12,7 @@ cd marbs
 
 log out, log back in
 
-If you want the extra dot files then:
+If you want the extra dot files then: ## Use at your own risk - I did not update those files
 
 cd marbs
 
