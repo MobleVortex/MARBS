@@ -29,16 +29,16 @@
 	## Installs packages with yay, didn't seem to work with one line so there are 4 - and it's easier to read! ##
 	yay --noconfirm --needed -S transmission-gtk electrum nextcloud-client reflector rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation librewolf-bin noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot
 
-	## Remove unwanted gnome packages
+ 	## Load dconf settings for gnome
+ 	dconf load / < ~/marbs/dconf-settings.ini
+	
+ 	## Remove unwanted gnome packages
 
 	yay --noconfirm -R gnome-tour gnome-logs gnome-maps gnome-software gnome-music gnome-clocks gnome-contacts gnome-calendar gnome-user-docs gnome-remote-desktop gnome-characters gnome-user-share gnome-text-editor gnome-connections gnome-font-viewer yelp malcontent totem orca simple-scan epiphany rygel
 
-	## Load dconf settings for gnome
- 	dconf load / < ~/marbs/dconf-settings.ini
-	
  	## change shell to zsh & source
   	chsh -s /bin/zsh
 	source ~/.zshrc
 	
  	## log out and back in for zsh default
-   	echo ### Log out and log in for default shell to change! ###
+   	echo _/\_ Log out and log in for default shell to change! _/\_
