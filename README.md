@@ -1,5 +1,7 @@
 # marbs
 
+IF YOU DON'T WANT THE DOT FILES THEN COMMENT THE FIRST FEW COPY LINES OUT OF INSTALL.SH!!!!!!
+
 TODO - gsettings stuff for gnome. Dark mode, etc
 
 How to use the badness:
@@ -10,9 +12,9 @@ cd marbs
 
 ./install.sh
 
-log out, log back in
+log out, log back in if the script does not do it automatically
 
-If you want the extra dot files then: ## Use at your own risk - I did not update those files
+If the dot files failed to copy, or you've decided you want them after running install.sh then:
 
 cd marbs
 
