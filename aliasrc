@@ -3,6 +3,14 @@
 # sudo pacman
 alias pacman="sudo pacman"
 
+# reflector -> sort pacman mirrors by age for most up to date packages
+alias \
+        reflector="sudo reflector --verbose --country 'United States' --sort age --save /etc/pacman.d/mirrorlist"
+
+# up -> run reflector and then force package sync with update
+alias \
+        up="reflector && yay -Syyu"
+
 # Use neovim for vim if present.
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
 
