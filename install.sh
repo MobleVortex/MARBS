@@ -30,7 +30,7 @@
 	up
 
 	## Installs packages with yay
-	yay --noconfirm --needed -S linux-headers transmission-gtk3 electrum nextcloud-client reflector rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation librewolf-bin noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot bpytop nautilus-share
+	yay --noconfirm --needed -S linux-headers transmission-gtk3 electrum nextcloud-client reflector rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation librewolf-bin noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot gnome-disk-utility bpytop nautilus-share
 
  	## Load dconf settings for gnome
  	dconf load / < ~/marbs/dconf-settings.ini
