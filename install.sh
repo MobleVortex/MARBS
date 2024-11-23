@@ -9,6 +9,7 @@
 	cp .zshrc ~
 	cp aliasrc ~/.config/
  	cp .nanorc ~
+  	cp middlemand.desktop ~/.config/autostart/
 	cp foot.ini ~/.config/foot/
  
 	## Makes pacman and yay have purtay coolers ##
