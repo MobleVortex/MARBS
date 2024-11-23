@@ -27,13 +27,13 @@
 	yay --noconfirm --needed -S reflector rsync 
 
 	## No longer necessary with new archinstall script
-#	sudo reflector --verbose --country 'United States' --sort age --save /etc/pacman.d/mirrorlist
+	sudo reflector --verbose --country 'United States' --sort age --save /etc/pacman.d/mirrorlist
 
 	## Force syncs newest mirrors and updates current packages before installing new packages
 	up
 
 	## Installs packages with yay
-	yay --noconfirm --needed -S linux-headers qbittorrent electrum nextcloud-client reflector rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot gnome-disk-utility bpytop nautilus-share microsoft-edge-stable-bin
+	yay --noconfirm --needed -S linux-headers qbittorrent electrum nextcloud-client baobab rsync gparted adapta-gtk-theme papirus-icon-theme nano-syntax-highlighting f2fs-tools abiword zsh foot mpv rhythmbox breeze-adapta-cursor-theme-git dashbinsh brave-bin unzip zsh-syntax-highlighting ttf-liberation noto-fonts ttf-roboto dconf-editor gnome-browser-connector gnome-bluetooth gnome-screenshot gnome-disk-utility bpytop nautilus-share microsoft-edge-stable-bin steam dxvk-bin libdxvk lib32-libdxvk
 
  	## Load dconf settings for gnome
  	dconf load / < ~/marbs/dconf-settings.ini
