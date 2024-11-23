@@ -53,3 +53,16 @@ alias \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
 	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
 	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf"
+
+# reflector -> sort pacman mirrors by age for most up to date packages
+alias \
+        reflector="sudo reflector --verbose --country 'United States' --sort age --save /etc/pacman.d/mirrorlist"
+
+# up -> run reflector and then force package sync with update
+alias \
+        up="reflector && yay -Syyu"
+
+# P99 midi synthesizer makes sound more gooder
+alias \
+        meq="fluidsynth -a pulseaudio -m alsa_seq -i -C off -R off -g 0.3 -s /home/kylok/Music/1mgm.sf2 &> /dev/null &"
+
