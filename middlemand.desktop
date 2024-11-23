@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Middlemand
+GenericName=P99 Fixer
+Type=Application
+Exec="/home/kylok/.PlayOnLinux/wineprefix/p99/drive_c/Program Files/Sony/p99/EQLite/middleman/p99-login-middlemand/bin/p99-login-middlemand" --background
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=10
