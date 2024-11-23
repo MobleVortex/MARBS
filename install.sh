@@ -6,10 +6,12 @@
 	## Makes ~/.config and moves dotfiles to the home directory ##
 	mkdir ~/.config
  	mkdir ~/.config/foot
+  	mkdir ~/Music
 	cp .zshrc ~
 	cp aliasrc ~/.config/
  	cp .nanorc ~
   	cp middlemand.desktop ~/.config/autostart/
+   	cp 1mgm.sf2 ~/Music/
 	cp foot.ini ~/.config/foot/
  
 	## Makes pacman and yay have purtay coolers ##
@@ -38,7 +40,7 @@
 	
  	## Remove unwanted gnome packages
 
-	yay --noconfirm -R gnome-tour gnome-logs gnome-maps gnome-software gnome-music gnome-clocks gnome-contacts gnome-calendar gnome-user-docs gnome-remote-desktop gnome-characters gnome-user-share gnome-text-editor gnome-connections gnome-font-viewer yelp malcontent totem orca simple-scan epiphany rygel
+	yay --noconfirm -R gnome-tour gnome-logs gnome-maps gnome-software gnome-music gnome-clocks gnome-contacts gnome-calendar gnome-user-docs gnome-remote-desktop gnome-characters gnome-user-share gnome-text-editor gnome-connections gnome-font-viewer yelp malcontent totem orca simple-scan epiphany rygel fluidsynth
 
  	## change shell to zsh & source
   	chsh -s /bin/zsh
